@@ -1,0 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: TechArq
+description: "This blog focuses on the research aspects of tech industries by sharing informative articles and interviews with industry leaders."
+baseurl: "/jekyll-for-designers"
+url: "http://gasparlg.github.io/jekyll-for-designers"
+tagline: "Connect & Research"
+
+
+# Build settings
+markdown: kramdown
+kramdown:
+    auto_ids: false
+gems: [jekyll-paginate]
+paginate: 4
+paginate_path: '/blog/page:num/'
+permalink: /blog/:title
